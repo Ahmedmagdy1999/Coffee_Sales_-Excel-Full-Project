@@ -157,10 +157,10 @@
 
 ### Contact Information
 
-Author: [Ahmed Magdy]
-Email: [ahmedmagdy29.1999@gmail.com]
-LinkedIn: [https://www.linkedin.com/in/ahmed-magdy-yahia-0b456a1a6]
-GitHub: [https://github.com/Ahmedmagdy1999]
+-Author: [Ahmed Magdy]
+-Email: [ahmedmagdy29.1999@gmail.com]
+-LinkedIn: [https://www.linkedin.com/in/ahmed-magdy-yahia-0b456a1a6]
+-GitHub: [https://github.com/Ahmedmagdy1999]
 
 
 
