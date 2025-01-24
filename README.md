@@ -11,6 +11,8 @@
 This project focuses on analyzing coffee sales data to extract meaningful insights and present them in an interactive and dynamic dashboard. The dataset, sourced from GitHub, includes various types of coffee sales across multiple countries. 
 The primary goal is to analyze sales trends, identify key customers, and provide a clear visual representation of the findings.
 
+
+
 ### Project Workflow
 
  1- Data Acquisition
@@ -21,22 +23,29 @@ The primary goal is to analyze sales trends, identify key customers, and provide
 2- Data Inspection
 
  The dataset was carefully inspected to understand its structure and identify any inconsistencies.
+ 
 
  3- Data Cleaning
 
  Cleaning steps were performed to ensure the data was accurate and ready for analysis.
+ 
 
  4- Data Analysis
 
  A pivot table was used to analyze the data and answer key business questions.
+ 
 
  5- Data Visualization
 
  Pivot charts were created to visualize trends and insights effectively.
+ 
 
  6- Dynamic Dashboard
 
  An interactive dashboard was built to present findings and allow dynamic exploration of the data.
+
+
+ 
 
  ### Key Questions Addressed:
 
@@ -52,20 +61,37 @@ The primary goal is to analyze sales trends, identify key customers, and provide
 
 - Microsoft Excel (Pivot Tables, Pivot Charts, Dynamic Dashboard)
 
+  
+
 ### Data Cleaning/Preparation
 
-1. Data loading in MySQL database
-2. A backup Creation ( a copy of the original table was made to avoid any accidental data loss. )
-3. Removing Duplicates - 
-   ( used a window function and a common table expression (CTE) to identify and remove duplicate records, as MySQL didn’t support the DELETE function for this purpose - 
-Created a new table to store the cleaned data, and added a unique identifier column (row_num) for each row. )
+  1- Data Gathering:
+  
+  Customer Information: Collected Customer Name, Email, Country, and Loyalty Card using the XLOOKUP function.
+Product Information: Gathered Coffee Type, Roast Type, Size, and Unit Price using a combination of INDEX and MATCH functions.
 
-4. Data Standardizing - ( removed extra spaces in the company name column - 
-Corrected spelling errors (e.g., “Crypto”) - 
-Converted date values into a standard format and changed the column type from text to date for consistency. )
+2- Calculated Fields:
 
-5. Handling null and blank values ( converted any blank values to NULL for easier handling - 
-Replaced NULL values with appropriate match values from the same company and location - 
-Removed irrelevant records that were unnecessary for analysis. )
+ Created a new column for Sales by multiplying Unit Price by Quantity.
 
- 6. Column Cleanup ( removed unneeded columns that didn’t contribute to the analysis. )
+ 3- Data Cleaning:
+
+ - Duplicate Check: Verified there were no duplicate entries in the dataset.
+ - Converted coffee-type abbreviations into full names using the IF function.
+ - Transformed roast-type names into full descriptions.
+ - Standardized the Month column to show months as letter abbreviations (e.g., Jan, Feb) to avoid confusion.
+ - Formatted the Size column to display values with the kg metric unit.
+ - Converted Unit Price and Sales columns to U.S. Dollars for consistency.
+ - Converted the dataset into an actual table to allow automatic updates when changes are made.
+
+
+### Data Analysis
+
+- Used Pivot Tables to answer key business questions:
+
+Total Sales Over Time
+Sales by Country
+Top 5 Customers by Sales
+
+- Customized Pivot Tables and created corresponding Pivot Charts for effective visualization.
+
