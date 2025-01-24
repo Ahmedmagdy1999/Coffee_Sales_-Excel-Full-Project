@@ -3,19 +3,31 @@
 ## Table of Contents
 
 - [Overview](#Project-Overview)
-- [Data Sources](#Data-Sources)
+- [Project Workflow](#Project-Workflow)
+- [Key Questions Addressed](#KeyQuestions-Addressed)
+- [Tools Used](#Tools-Used)
+- [Data Cleaning/Preparation](#Data-Cleaning/Preparation)
+- [Data Analysis](#Data-Analysis)
+- [Results](#Results)
+- [Recommendations](#Recommendations)
+- [Conclusion](#Conclusion)
+- [Skills Demonstrated](#Skills-Demonstrated)
+- [Contact Information](#Contact-Information)    
+
+
 
 
 ### Overview
 
-This project focuses on analyzing coffee sales data to extract meaningful insights and present them in an interactive and dynamic dashboard. The dataset, sourced from GitHub, includes various types of coffee sales across multiple countries. 
-The primary goal is to analyze sales trends, identify key customers, and provide a clear visual representation of the findings.
+   This project focuses on analyzing coffee sales data to extract meaningful insights and present them in an interactive and dynamic dashboard. The dataset, sourced from 
+  GitHub includes various types of coffee sales across multiple countries. 
+  The primary goal is to analyze sales trends, identify key customers, and provide a clear visual representation of the findings.
 
 
 
 ### Project Workflow
 
- 1- Data Acquisition
+   1- Data Acquisition
 
    The dataset was obtained from GitHub, ensuring a reliable source of information for analysis.
 
